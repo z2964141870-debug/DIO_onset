@@ -1,0 +1,32 @@
+Total evaluations: 100 (10 sessions x 5 frames x 2 arms x 2 conditions)
+  20/100 done
+  40/100 done
+  60/100 done
+  80/100 done
+  100/100 done
+
+======================================================================
+LARGE-SCALE WARM-UP RESULTS
+======================================================================
+
+Policy: 035
+  n_pairs: 50
+  Standard falls: 30/50 (60%)
+  Warm-up falls (test window): 11/50 (22%)
+  Warm-up falls (during warm-up): 16/50
+  Warm-up total falls: 27/50
+  McNemar: std_fall+warm_OK=19, std_OK+warm_fall=0
+  Exact p = 0.0000
+  ✅ SIGNIFICANT
+
+Policy: m17
+  n_pairs: 50
+  Standard falls: 38/50 (76%)
+  Warm-up falls (test window): 16/50 (32%)
+  Warm-up falls (during warm-up): 19/50
+  Warm-up total falls: 35/50
+  McNemar: std_fall+warm_OK=22, std_OK+warm_fall=0
+  Exact p = 0.0000
+  ✅ SIGNIFICANT
+
+Results saved to /opt/data/private/yuanqi_ops/data/experiments/p2_main/warmup_large/results.pkl
